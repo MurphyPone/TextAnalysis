@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Text Analysis</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+    <style>
+
+    .text {
+      width: 48%;
+      background-color: #2f2f2f;
+      color: white;
+      font-family: Helvetica;
+      float: left;
+    }
+
+    .analysis {
+      width: 48%;
+      background-color: #c9c9c9;
+      color: black;
+      font-family: Helvetica;
+      float: right;
+    }
+
+    .container {
+      padding: 5px;
+      height: 100%;
+    }
+
+    </style>
+
+  </head>
+  <body>
+    <h1 style="text-align: center; font-family: Helvetica;">Text Analysis Display</h1>
+
+    <div class="container">
+      <div class="text">
+        <h1>Input</h1>
+        <input type="button" value="prev" onclick="previous()" />
+        <input type="button" value="next" onclick="next()" />
+
+        <p id="text">placeholder</p>
+      </div>
+
+      <div class="analysis">
+        <h1>Analysis</h1>
+        <h3 id="type">placeholder</h3>
+
+        <h3 id="score">placeholder</h3>
+
+      </div>
+    </div>
+
+
+  </body>
+</html>
